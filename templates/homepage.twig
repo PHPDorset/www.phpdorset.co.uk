@@ -1,0 +1,62 @@
+{% extends "master.twig" %}
+
+{% block main_content %}
+
+    {% include 'homepage' %}
+
+    <div class="google-maps">
+        <iframe src="https://www.google.com/maps/embed/v1/place?q=Barclays+Eagle+Labs+Bournemouth,+Poole+Road,+Branksome,+Poole,+United+Kingdom&key=AIzaSyDlEVWcPvkrfzqpzW9L_ARUhsqWxSTAx60" width="600" height="450" frameborder="0"></iframe>
+        <div class="map-overlay">
+            <p>PHP Dorset is at the <strong>Barclays Eagle Labs</strong> starting at <strong>6.30pm</strong>.</p>
+            <p>Parking is available from 6pm at <a href="https://en.parkopedia.co.uk/parking/carpark/milburn_road/bh4/bournemouth/">Milburn Road</a>.</p>
+        </div>
+    </div>
+
+    {% for month, talks in months %}
+
+        {% set colwidth = (talks|length) %}
+        {% if colwidth == 1 %}
+            {% set colwidth = 2 %}
+        {% endif %}
+
+        {% if talks is not empty %}
+
+            <div class="banner clearfix">
+                <div class="wrapper clearfix">
+
+                    {#<br><h3>{{ month|date('F Y') }}</h3>#}
+
+                    {% for key, talk in talks %}
+
+                        {% if talk.date|date('U') >= currentDate|date('U') %}
+                            {% include 'homepage' %}
+                        {% else %}
+                            {% include 'homepage' %}
+                        {%  endif %}
+
+                    {% endfor %}
+
+                    {% if talks|length < 2 %}
+                        {% if talks[1].date|date('U') >= currentDate|date('U') %}
+                            {% include 'homepage' %}
+                        {% else %}
+                            {% include 'homepage' %}
+                        {% endif %}
+                    {% endif %}
+
+                    {% if talks|length > 1 %}
+                        {% include 'homepage' %}
+                    {% endif %}
+
+                </div>
+            </div>
+
+        {% endif %}
+
+    {% endfor %}
+
+
+
+    {% include 'homepage' %}
+
+{% endblock %}

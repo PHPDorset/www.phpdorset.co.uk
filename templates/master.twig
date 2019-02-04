@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/favicon.ico">
+
+    <title>PHP Dorset User Group</title>
+
+    <!-- Bootstrap core CSS -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" integrity="sha384-7tY7Dc2Q8WQTKGz2Fa0vC4dWQo07N4mJjKvHfIGnxuC4vPqFGFQppd9b3NWpf18/" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="/stylesheets/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" integrity="sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY" crossorigin="anonymous"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
+    <![endif]-->
+
+    <script nonce="{{ app.request.attributes.get('csp_token') }}">
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-50716707-1', 'phpdorset.co.uk');
+        ga('send', 'pageview');
+
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+
+    <script nonce="{{ app.request.attributes.get('csp_token') }}">
+        $(function () {
+            $('div#masthead span.phpdorset-logo a').bind('contextmenu', function () {
+                $('div#press-kit').slideToggle();
+            });
+        });
+    </script>
+
+    {% block extra_headers %}
+
+    {% endblock %}
+
+</head>
+
+<body>
+
+
+<div class="site-wrapper">
+
+    <div id="press-kit" class="wrapper">
+        <p>Hello! It looks like your trying to download the logo for PHP Dorset, would you like the high-res version?</p>
+        <p>
+            <a href="https://onedrive.live.com/redir?resid=3FD058F9748E21C3!151&authkey=!AMGS0k_OZIQWdtg&ithint=file%2czip" class="btn">
+                <span class="glyphicon glyphicon-download" aria-hidden="true"></span>&nbsp;&nbsp;Download logos
+            </a>
+        </p>
+    </div>
+
+    {% block masthead %}
+        <div id="masthead">
+
+            <div class="wrapper">
+
+                <span class="phpdorset-logo">
+                    <a href="/">
+                        <img alt="php dorset" src="/images/logo-transparent.png">
+
+                        <h1>PHP Dorset</h1>
+                    </a>
+                </span>
+
+                {% include 'navigation.twig' %}
+
+            </div>
+
+        </div>
+
+    {% endblock %}
+
+    <div id="main_content">
+        {% block main_content %}
+
+        {% endblock %}
+    </div>
+
+
+    {% include 'mast_foot.twig' %}
+
+
+</div>
+
+{% block extra_scripts %}
+
+{% endblock %}
+
+<script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js" integrity="sha384-oFMgcGzKX7GaHtF4hx14KbxdsGjyfHK6m1comHjI1FH6g4m6qYre+4cnZbwaYbHD" crossorigin="anonymous"></script>
+</body>
+</html>
+
+

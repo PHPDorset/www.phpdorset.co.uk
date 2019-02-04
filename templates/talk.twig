@@ -1,0 +1,174 @@
+{% extends "master.twig" %}
+
+{% block extra_headers %}
+
+    <script src="/scripts/popcorn-complete.min.js"></script>
+
+    <script nonce="{{ CSP_NONCE }}" type="application/javascript">
+
+        {% if talk.cues is not empty %}
+
+          // ensure the web page (DOM) has loaded
+          document.addEventListener("DOMContentLoaded", function () {
+
+              // Create a popcorn instance by calling the Vimeo player plugin
+              var video = Popcorn.vimeo(
+                      '#video',
+                      '{{ talk.video }}');
+
+              {% for key, cue in talk.cues %}
+
+                video.cue( {{cue}}, function(key) {
+                    renderPage({{key}});
+                });
+
+              {% endfor %}
+
+              // play the video right away
+              video.play();
+
+          }, false);
+
+        {% endif %}
+
+        var url = '{{ talk.pdf }}';
+
+        $(document).ready(function() {
+
+            $('.abstractOpen').click(function (e) {
+                $('.abstract').slideDown();
+                $(this).hide();
+                $('.abstractClose').show();
+            }).hide();
+
+            $('.abstractClose').click(function (e) {
+                $('.abstract').slideUp();
+                $(this).hide();
+                $('.abstractOpen').show();
+            });
+        });
+
+    </script>
+
+{% endblock %}
+
+{% block main_content %}
+
+    <div id="strapline">
+        <div class="wrapper">
+
+            <h2>
+                {{ talk.title }} - {{ talk.month|capitalize }} {{ talk.year }}
+            </h2>
+
+        </div>
+    </div>
+
+    <div class="abstract ">
+        <div class="wrapper">
+            {% if talk.twitter %}
+                <div class="bio">
+                    <a href="https://twitter.com/{{ talk.twitter }}">
+                    <img src="{{ talk.avatar }}"/>
+
+                    {{ talk.speaker }}
+                    </a>
+                </div>
+            {% endif %}
+            <div class="text">
+                {{ talk.abstract|raw|nl2br }}
+            </div>
+        </div>
+    </div>
+
+    {% if talk.inTheFuture %}
+
+      <div>
+        <p>
+          <a class="btn" href="{{ talk.ticketLink }}">
+            <span class="glyphicon glyphicon-qrcode" aria-hidden="true"></span>&nbsp;&nbsp;Sign up for free
+          </a>
+        </p>
+        <br/>
+      </div>
+
+    {% else %}
+
+        <div id="media_holder" class="clearfix">
+
+            <div id="video_wrapper">
+
+                {% if talk.video %}
+                    <div id="video"></div>
+                {% else %}
+                    <div class="novideo">
+                        <img src="/images/no_video.png" alt="no video available">
+                        <h4>We didn't record this talk!</h4>
+                        <p>We're looking for volunteers to help us video our talks, if you'd like to help please get in touch</p>
+                    </div>
+                {% endif %}
+
+                {% if talk.abstract and (talk.pdf or talk.video) %}
+                    <a href="#" class="abstractOpen btn notmobile">
+                        <span class="glyphicon glyphicon-collapse-down"></span>&nbsp;&nbsp;View abstract
+                    </a>
+                    <a href="#" class="abstractClose btn notmobile">
+                        <span class="glyphicon glyphicon-collapse-up"></span>&nbsp;&nbsp;Hide abstract
+                    </a>
+                {% endif %}
+
+                {% if talk.pdf %}
+                <a class="btn" href="{{ talk.pdf }}">
+                    <span class="glyphicon glyphicon-download"></span>&nbsp;&nbsp;Download slides
+                </a>
+                {% endif %}
+
+                {% if talk.feedbackUrl %}
+                    <a class="btn" href="{{ talk.feedbackUrl }}">
+                        <span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Give feedback
+                    </a>
+                {% endif %}
+
+
+                {% if talk.resources|length > 0 %}
+                    <br/> <br/>
+                    <h3>Resources</h3>
+                <p>
+                    {% for title, url in talk.resources %}
+                        <a href="{{ url }}">{{ title }}</a><br/>
+                    {% endfor %}
+                </p>
+                {% endif %}
+
+
+            </div>
+
+            {% if talk.pdf != '/pdfs/' %}
+                <div id="canvas_holder">
+                    <canvas id="presentation"></canvas>
+                    <a id="prev" class="btn notmobile" onclick="goPrevious()">
+                        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;&nbsp;Previous slide
+                    </a>
+                    <a id="next" class="btn notmobile" onclick="goNext()">
+                        Next slide&nbsp;&nbsp;<span class="glyphicon glyphicon-arrow-right"></span>
+                    </a>
+                    <br/><br/>
+                    {% if talk.cues|length > 0 %}
+                        <p class="notmobile">Slides for this talk are synced to the video</p>
+                    {% endif %}
+                </div>
+            {% endif %}
+        </div>
+
+    {% endif %}
+
+{% endblock %}
+
+{% block extra_scripts %}
+
+
+    <script type="text/javascript" src="/scripts/pdf.js"></script>
+    <script src="/scripts/pdf_config.js"></script>
+
+
+{% endblock %}
