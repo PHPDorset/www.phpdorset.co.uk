@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace App\Security;
 
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
@@ -17,14 +19,14 @@ final class ContentSecurityPolicySubscriber implements EventSubscriberInterface
         $this->tokenGenerator = $tokenGenerator;
     }
 
-    public function onKernelController(FilterControllerEvent $event)
+    public function onKernelController(FilterControllerEvent $event): void
     {
         $this->token = $this->tokenGenerator->generateToken();
 
         $event->getRequest()->attributes->set('csp_token', $this->token);
     }
 
-    public function onKernelResponse(FilterResponseEvent $event)
+    public function onKernelResponse(FilterResponseEvent $event): void
     {
         $policies['default-src'] = '\'self\'';
         $policies['font-src'] = '\'self\' https://netdna.bootstrapcdn.com';

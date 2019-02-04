@@ -1,0 +1,896 @@
+{
+    "2019": {
+        "february": {
+            "1": {
+                "date": "2019-02-04",
+                "speaker": "Dan Richards",
+                "title": "Go for PHP Developers",
+                "avatar": "/images/danrichards.jpg",
+                "abstract": "Over the past 5 years the Go programming language has skyrocketed in popularity. The reasons for this are far reaching but at a high level center around speed, flexibility and developer productivity. But what does this mean to a PHP developer?\n\nThis talk aims to answer that question. It provides an introduction to the Go programming language, how it differs from PHP, why you should consider using it and (perhaps most importantly) when you should use it. The talk will also cover some tricky areas that can trip you up as a new Go developer.\n\nThis won't be a lecture on why you should always use Go because it's \"just better\". Go is a great language and can be complimentary to nearly any developers skill set.",
+                "twitter": "DanielMRichards"
+            }
+        },
+        "january": {
+            "1": {
+                "date": "2019-01-07",
+                "speaker": "Alex Ross",
+                "title": "Docker In Production (Lightning Talk)",
+                "avatar": "/images/rossey.jpg",
+                "abstract": "Join us for our first meeting of 2019. Alex will be giving us a short talk on how to run Docker in production environments.",
+                "twitter": "rossey",
+                "ticketLink": "https://www.eventbrite.co.uk/e/phpdorset-december-7th-1830-tickets-41754559010"
+            },
+            "2": {
+                "date": "2019-01-07",
+                "speaker": "Chris Sherry",
+                "title": "Discussion (Lean Coffee) Session",
+                "avatar": "/images/chris.png",
+                "abstract": "Chris will be leading a chat session on topics that will be suggested by the members of the meet up an then voted on in a \"Lean Coffee\" style discussion",
+                "twitter": "tweetingsherry",
+                "ticketLink": "https://www.eventbrite.co.uk/e/phpdorset-december-7th-1830-tickets-41754559010"
+            }
+        }
+    },
+    "2018": {
+        "december": {
+            "1": {
+                "speaker": "PHPDorset",
+                "date": "2018-12-03",
+                "title": "Christmas Social",
+                "avatar": "/images/logo-transparent.png",
+                "abstract": "<p>For December's meet up tomorrow, we will be having a :christmas_tree: Xmas social, starting out at @eagle_labs_bmth as usual for a chat and some :pizza: #PHPizza (thanks to @Spectrum_IT). Then we'll be heading off to the Libertine for a drink and more socialising</p>",
+                "twitter": "phpdorset"
+            }
+        },
+        "november": {
+            "1": {
+                "date": "2018-11-12",
+                "speaker": "Joe Lambert",
+                "title": "Supercharging WordPress",
+                "avatar": "/images/joelambert.jpg",
+                "abstract": "Often WordPress themes are not easy to change, maintain or fun to work on. This can rule WordPress out as a viable option for bespoke, non-trivial websites.<br/><br/>In this talk we’ll dive into how this happens & look at how we can benefit from software engineering techniques to help make your code easier to change. I’ll also show how using Lumberjack, a powerful MVC framework built on Timber, can be used to power-up your themes.",
+                "twitter": "joelambert"
+            }
+        },
+        "october": {
+            "1": {
+                "date": "2018-10-01",
+                "speaker": "Benjie Gillam",
+                "title": "Lightweight GraphQL && Database Driven GraphQL Design",
+                "avatar": "/images/benjie.jpg",
+                "abstract": "<strong>Lightweight GraphQL</strong><p>Using only React, “window.fetch()” and string concatenation this talk covers GraphQL fundamentals such as schemas, queries and mutations. By focussing on the basics and sidestepping the distractions of tooling and clients, this presentation will help you understand the power of GraphQL and give you the foundations to consider it for your own projects</p><strong>Database Driven GraphQL Design</strong><p>Learn how a database-centric approach to GraphQL API development can give your engineers more time to focus on the important parts of your application. Topics covered include authentication, authorization, adhering to GraphQL best practices, and avoiding common pitfalls</p>",
+                "twitter": "Benjie",
+                "resources": {
+                    "[SLIDES] Lightweight GraphQL": "https://www.graphql-training.com/lightweight-graphql-react/#1",
+                    "[SLIDES] Database Driven GraphQL Design": "https://www.graphile.org/ddgd/#",
+                    "[VIDEO] GraohQL Finland Live Stream": "https://www.youtube.com/watch?v=aX-BxhkFd9g&feature=youtu.be&t=29233"
+                }
+            }
+        },
+        "september": {
+            "1": {
+                "date": "2018-09-03",
+                "speaker": "Michael Cullumn",
+                "title": "Trend analysis and machine learning in PHP",
+                "avatar": "/images/michaelc.jpg",
+                "abstract": "The world we live in is one where data is one of the most valuable assets. There are many different pieces of data we can analyse on all kind of data from analytics of user behaviour of your platform, user generated content, monitoring of exception rates, or when your core business model is to provide some kind of analytics platform. This talk will talk about how you can, in your Symfony applications, perform some simple trend analysis techniques to build models, analyse data to get useful information and spot anomalies.",
+                "twitter": "michaelcullumuk"
+            }
+        },
+        "august": {
+            "1": {
+                "date": "2018-08-06",
+                "speaker": "Chris Sherry & Dave Hulbert",
+                "title": " Get out of jail \"free\" cards - tips and quick fixes to get you out of sticky situations with servers, websites and APIs",
+                "avatar": "/images/chrisdave.jpg",
+                "abstract": "<p>There are lots of popular talks about the best practice and right way to build your software and infrastructure to ensure the most reliable, fault tolerant systems and optimised codebases, without which we would not know how to improve and better our processes.</p><p>But in reality, projects exist in a multitude of states of imperfectness, sometimes due to commercial decisions or financial demands, scheduling pressures, or unfortunately some naivety or ignorance on our parts or those we inherited those projects from.</p><p>Together Chris and Dave have years of experience working with and maintaining legacy PHP codebases, MVP monoliths and prototypes that got shipped to production. They have joined forces to share with you some of their favourite tips on getting through times of late night bug fixing, weekend patches and badly timed traffic spikes. The talk will help you survive your initial dilemma to keep things running and give ideas for some better long term resolutions.</p>",
+                "twitter": "phpdorset",
+                "slides": "2018_august.pdf",
+                "resources": {
+                    "Download the Slides": "https://phpdorset.co.uk/pdfs/2018_august.pdf",
+                    "Query Order & Cardinality Talk by Rich Baker": "https://www.phpdorset.co.uk/talks/2017/april"
+                }
+            }
+        },
+        "july": {
+            "1": {
+                "date": "2018-07-02",
+                "speaker": "Stuart Herbert",
+                "title": "Using JSON Schema to validate your API",
+                "avatar": "/images/stu.jpg",
+                "abstract": "When Stuart needed to build an API-first app for a client, he wanted to find a better way to do input validation. He'd just come off a quality audit role on a large-scale project where he'd seen first-hand how it just isn't feasible to expect anyone to achieve 100% input validation through entirely manual means. That experience, and that search, led him to JSON Schema. In this talk, Stuart will introduce you to JSON Schema. He'll show you the essential points of writing a schema, and how to use it both from PHP and from JavaScript. Finally, he'll discuss the current state of the JSON schema draft, and share the compatibility issues he's seen over the last couple of years.",
+                "twitter": "stuherbert"
+            }
+        },
+        "june": {
+            "1": {
+                "date": "2018-06-11",
+                "speaker": "Dave Hulbert",
+                "title": "The Great PHP Dorset JeoPHPardy Quiz",
+                "avatar": "/images/dave.jpeg",
+                "abstract": "<p> This month we have something both educational and fun! Dave Hulbert will be running a Jeopardy-style PHP quiz. Come along and be a contestant or join the audience and learn some facts about PHP. Whether you're new to PHP or an expert, there's sure to be something new. We'll cover PHP functions, popular frameworks and other parts of the PHP ecosystem.</p>",
+                "twitter": "dave1010"
+            },
+            "2": {
+                "speaker": "PHPDorset",
+                "date": "2018-06-11",
+                "title": "Lean Coffee Session",
+                "avatar": "/images/logo-transparent.png",
+                "abstract": "<p>We'll also be hosting a <a href=\"http://wall-skills.com/wp-content/uploads/2013/12/Lean-Coffee_Wall-Skills1.png\">\"Lean Coffee\"</a> format discussion.</p>",
+                "twitter": "phpdorset"
+            }
+        },
+        "may": {
+            "1": {
+                "date": "2018-05-14",
+                "speaker": "[VIDEO]",
+                "title": "TBC",
+                "avatar": "/images/video.png",
+                "abstract": "Video and Discussion evening. Video to be decided.",
+                "twitter": "phpdorset"
+            }
+        },
+        "april": {
+            "1": {
+                "date": "2018-04-09",
+                "speaker": "Rob Waller",
+                "title": "5 Tips for an Aspiring Tech Manager",
+                "avatar": "/images/robdwaller.jpg",
+                "abstract": "<p>Management is a difficult area for many developers to move into as it is very different to programming. Based on my learnings as a tech lead, running a business and teachings from sport and history I wish to share my tips for those who want to become managers and succeed at running tech teams.</p>",
+                "twitter": "RobDWaller"
+            }
+        },
+        "march": {
+            "1": {
+                "date": "2018-03-05",
+                "speaker": "PHPDorset",
+                "title": "Video: Christopher Pitt - Monads",
+                "avatar": "/images/video.png",
+                "abstract": "<p>This week we watched the following video: Christopher Pitt - Monads in PHP - Laracon EU 2017. https://www.youtube.com/watch?v=2th3L1RWvJk</p>",
+                "twitter": "phpdorset"
+            }
+        },
+        "february": {
+            "1": {
+                "date": "2018-02-05",
+                "speaker": "Dave Baker",
+                "title": "Exiting Vim",
+                "avatar": "/images/daveb.jpg",
+                "abstract": "<p>As of May 2017 the “How do I exit Vim” question was still receiving around 80 visits an hour, showing that many people end up in Vim, but don’t know much or anything about it. This talk aims to provide a set of tips and tricks to allow developers to utilise one of the most powerful text editors around to enhance their workflows.</p><p>It is a beginner to intermediate talk, aimed at getting new, curious or infrequent users comfortable with the editor from the perspective of a PHP developer. It does not compare Vim to other editors or IDE’s or cover more advanced topics. By the end of the talk, attendees should feel comfortable with the editor and confident on where to find more information should they wish to learn more.</p>",
+                "twitter": "fully_baked",
+                "ticketLink": "https://www.eventbrite.co.uk/e/phpdorset-february-dave-baker-how-to-exit-vim-tickets-41754300236?aff=email1&mc_eid=ebd48fd226&mc_cid=c4965e6c27"
+            }
+        },
+        "january": {
+            "1": {
+                "date": "2018-01-08",
+                "speaker": "Dave Liddament",
+                "title": "The Test Suite Holy Trinity",
+                "avatar": "/images/davel.jpg",
+                "abstract": "<p>What would the perfect test suite look like? Well it would definitely fully test every bit of functionality. It would run lightning fast. And the test suite would be quick to write. That sounds great right?</p><p>Unfortunately these 3 goals work against each other. Increasing test coverage will increase the time spent writing and executing tests. Reducing test execution time will result in lower coverage.</p><p>This talk look at the properties of unit, integration and system tests in terms of what they test, how fast they run and how quick they are to write. Will look at how to get the most out of testing at each of these levels, how best to architect code for testing and where best to make compromises.  Although by the end of the talk we won’t have quite achieved the Test Suite Holy Trinity, we’ll be a step closer. </p>",
+                "twitter": "DaveLiddament",
+                "slides": "2018_january.pdf"
+            }
+        }
+    },
+    "2017": {
+        "december": {
+            "1": {
+                "date": "2017-12-04",
+                "speaker": "PHPDorset",
+                "title": "Lightning talks",
+                "avatar": "/images/lightning.png",
+                "abstract": "<p>Dave Hulbert talks what's new in Symfony 4, Chris Sherry shares how 3 Sided Cube do 24/7 support for the American Red Cross, and Alex describes the infrastructure behind Passenger.</p>",
+                "twitter": "phpdorset",
+                "ticketLink": "https://www.eventbrite.co.uk/e/phpdorset-december-nick-whitelegg-ephp-developing-a-php-learning-tool-tickets-39644539886"
+            }
+        },
+        "november": {
+            "1": {
+                "date": "2017-11-06",
+                "speaker": "PHPDorset",
+                "title": "Lean Coffee Session",
+                "avatar": "/images/logo-transparent.png",
+                "abstract": "<p>This month we're hosting an open discussion in a <a href\"http://wall-skills.com/wp-content/uploads/2013/12/Lean-Coffee_Wall-Skills1.png\">\"Lean Coffee\"</a> format. As ever we'll have some spots open for any lightning talks, discussions or general grievances anyone might want to speak about!</p><p>PHPDorset is a great way for first time speakers to get an idea of if they would enjoy speaking to groups.</p>",
+                "twitter": "phpdorset",
+                "ticketLink": "https://www.eventbrite.co.uk/e/phpdorset-november-lean-coffee-session-tickets-39178332447"
+            }
+        },
+        "october": {
+            "1": {
+                "date": "2017-10-02",
+                "speaker": "Katy Ereira",
+                "title": "Chatbots and PHP",
+                "avatar": "/images/kereira.jpeg",
+                "abstract": "Chatbots are rapidly gaining in popularity; changing the way in which users engage with organisations online. I'm going to talk about how you would get started writing a bot in PHP using Botman, and how to harness the power of artificial intelligence and natural language processing.",
+                "twitter": "maccath",
+                "slides": "2017_october.pdf",
+                "ticketLink": "https://www.eventbrite.co.uk/e/phpdorset-october-katy-ereira-chatbots-and-php-tickets-36857680314?aff=web1"
+            }
+        },
+        "september": {
+            "1": {
+                "date": "2017-09-04",
+                "speaker": "Chris Hoult",
+                "title": "Graphs are Everywhere",
+                "avatar": "/images/chault.jpg",
+                "abstract": "No - not charts! Graphs are a data structure that are more than just the nodes and edges they contain: from mapping networks to representing arithmetic, from writing chat-bots to inferring relationships, applying graphs to a problem can quite often provide an elegant solution. In this light-hearted and accessible talk, I will cover the basics of graphs as well as go over a few simple but fun examples of this versatile concept.",
+                "twitter": "choult",
+                "slides": "2017_september.pdf",
+                "ticketLink": "https://phpdorset-september-17.eventbrite.com/?aff=web1"
+            }
+        },
+        "august": {
+            "1": {
+                "date": "2017-08-07",
+                "speaker": "Derick Rethans",
+                "title": "Storing Non-Scalar Data",
+                "avatar": "/images/derickr.jpg",
+                "abstract": "In this presentation we will look at storing complex data in a single field. Many noSQL solutions are created around this (such as Redis' lists, sets and hashes; MongoDB's and CouchDB's records), and many relational database now also support storing complex data in a single field through specific data types (such as PostGreSQL's JSONB or hstore, MySQL's JSON). <br /><br />Each of the different database engines support different things, and handle these data types in different ways. In this session we compare the different approaches to storage, indexing and interactions with these data types in different databases.",
+                "twitter": "derickr",
+                "ticketLink": "https://phpdorset-august-17.eventbrite.com/?aff=web1"
+            }
+        },
+        "july": {
+            "1": {
+                "date": "2017-07-03",
+                "speaker": "Jonathan Clark",
+                "title": "Bitcoin and Blockchain Basics [Lightning Talk]",
+                "avatar": "/images/jonclark.jpg",
+                "abstract": "Learn about the fundamentals of the Blockchain technology and cryptocurrencies, covering the basics of what they are, how to buy them, how mining works, and how the blockchain works.",
+                "twitter": "jammyclarkie",
+                "ticketLink": "https://www.eventbrite.co.uk/e/phpdorset-july-17-bitcoin-and-blockchain-basics-interactive-festival-map-a-personal-project-tickets-35468459116"
+            },
+            "2": {
+                "date": "2017-07-03",
+                "speaker": "Chris Sherry",
+                "title": "Interactive Festival Map - A Personal Project",
+                "avatar": "/images/chris.png",
+                "abstract": "At one of Mobile Dorset's lean coffee sessions, There was a conversation about a way to show a user's location ontop of an image - that image being a map for a theme park or event. Off the back of that conversation I went on to build a prototype with javascript and test it in a real world situation for the Teddy Rocks Festival. This talk shares my thought process, decisions, challenges and what I learnt from the project. I'd love to discuss my approach and share ideas on how to move the project forward for next year.",
+                "twitter": "tweetingsherry",
+                "ticketLink": "https://www.eventbrite.co.uk/e/phpdorset-july-17-bitcoin-and-blockchain-basics-interactive-festival-map-a-personal-project-tickets-35468459116"
+            }
+        },
+        "april": {
+            "1": {
+                "date": "2017-04-03",
+                "speaker": "Richard Baker",
+                "title": "MySQL Weirdness ",
+                "avatar": "/images/r_bake_r.jpg",
+                "abstract": "Faster queries using indexes",
+                "twitter": "r_bake_r",
+                "slides" : "2017_april.pdf"
+            }
+        },
+        "march": {
+            "1": {
+                "date": "2017-03-06",
+                "speaker": "Alex Ross",
+                "title": "Load Balancing with Nginx",
+                "avatar": "/images/rossey.jpg",
+                "abstract": "Nginx can be used for lots of utility purposes. Alex shares with us how it can be used as a load balancer to direct traffic between multiple servers",
+                "twitter": "rossey"
+            },
+            "2": {
+                "date": "2017-03-06",
+                "speaker": "[VIDEO]",
+                "title": "Design How Your Objects Talk Through Mocking",
+                "avatar": "/images/video.png",
+                "abstract": "We'll be watching Konstantin Kudryashov's talk as a video and having an open discussion: <br><br>What should you test with your unit tests? Some people will say that unit behaviour is best tested through it's outcomes. But what if communication between units itself is more important than the results of it? This session will introduce you to two different ways of unit-testing and show you a way to assert your object behaviours through their communications.",
+                "twitter": "phpdorset",
+                "resources": {
+                    "Watch the video on youtube": "https://www.youtube.com/watch?v=X6y-OyMPqfw"
+                }
+            }
+        },
+        "february": {
+            "1": {
+                "date": "2017-02-06",
+                "speaker": "Jonathan Ginn",
+                "title": "Flexbox is boss",
+                "avatar": "/images/jonginn.png",
+                "abstract": "You might have heard of CSS Flexbox layouts but haven't tried it yet. Or you might not have heard of it at all. In this brief talk, Jon will go through the features that Flexbox brings to CSS and answer all of your questions, including: \"What is Flexbox?\", \"Why is it awesome?\", \"Can I start using it right away?\" and \"Is he going to keep talking?\"",
+                "twitter": "jonginn",
+                "slides" : "2017_february.pdf"
+            },
+            "2": {
+                "date": "2017-02-06",
+                "speaker": "Dave Hulbert",
+                "title": "Third Party Party [Discussion]",
+                "avatar": "/images/dave.jpeg",
+                "abstract": "We'll be having an open discussion about some of our most useful, favourite, can't-live-without, always install, third party libraries. <br><br> We'll go ahead an include all third party bits in this, Composer Packages, GitHub libraries, WordPress plugins, third party IDE tools, anything that is made by someone else, that you rely upon. <br><br> Hopefully it'll be a great opportunity for all of us to find out about libraries we've been living without and alternatives to dependencies we've been depending on. <br><br>We've got some space left for anyone that wants to try out a talk on something they are passionate about. We're always happy to help out first time speakers or speakers that want try a new topic on a group of friendly faces, just drop us a line!",
+                "twitter": "dave1010",
+                "slides" : ""
+            }
+        }
+    },
+    "2016": {
+        "december": {
+            "1": {
+                "date": "2016-12-05",
+                "speaker": "Jamie Cruwys",
+                "title": "The Investigatory Powers Act (Snoopers Charter)",
+                "avatar": "/images/jamie.png",
+                "twitter": "jamiecruwys",
+                "abstract": "The Investigatory Powers Act, also known as the Snoopers Charter is becoming law. In this talk we will discuss the impact of the act, ways in which you can further protect your online privacy and how what actionable items you can implement to improve your online privacy.",
+                "slides" : "2016_december.pdf"
+            }
+        },
+        "november": {
+            "1": {
+                "date": "2016-11-07",
+                "speaker": "Michael Heap",
+                "title": "A beginner's guide to deployments",
+                "avatar": "/images/michael.jpg",
+                "twitter": "mheap",
+                "abstract": "Deploying an application means different things to different people. It may be as simple as running `git pull` on a server, or as complex as building RPMs and deploying to a canary set of servers. This talk covers both ends of the spectrum and the points in between. We’ll outline several tried and tested deployment methodologies that everyone can use, whether you’re working with a simple WordPress site or a dozen micro-services.",
+                "slides" : "2016_november.pdf"
+            }
+        },
+        "october": {
+            "1": {
+                "date": "2016-10-03",
+                "speaker": "Iain Poulson",
+                "avatar": "/images/ian.jpeg",
+                "twitter": "polevaultweb",
+                "title": "Automated Acceptance Testing with Codeception",
+                "abstract": "<p>One of the biggest drains on our development team is manually performing acceptance tests for each release of our WordPress plugins. It's time consuming and expensive, in terms of both man hours and time taken away from actual product development. Manual testing like this just doesn't scale.</p><p> So what's the solution? Hire a tester or a testing team? Still not scalable. This talk covers how it is possible to automate 99% of manual tests with the testing framework Codeception, and how we are integrating it into our testing process.</p>",
+                "slides": "2016_october_ian.pdf",
+                "resources": {
+                    "Example Repository" : "https://github.com/polevaultweb/wpos3-acceptance-testing-example",
+                    "Trish Khoo Talk on Testing": "https://businessofsoftware.org/2016/06/rock-solid-software-testing-without-hiring-an-army-trish- khoo-google-bos2015/",
+                    "Codeception" : "https://codeception.com/",
+                    "WPBrowser" : "https://github.com/lucatume/wp-browser",
+                    "Codeception WordPress Plugin": "https://deliciousbrains.com/codeception-automate-wordpress-plugin-testing/"
+                }
+            },
+            "2": {
+                "date": "2016-10-03",
+                "speaker": "Chris Sherry",
+                "title": "Speaking and Slidedeck tips [Lightning Talk]",
+                "avatar": "/images/chris.png",
+                "abstract": "<p>This is a short talk about the tips and advice I have picked up over the last couple of years about speaking, and specifically creating slidedecks for talks.</p>",
+                "twitter": "tweetingsherry",
+                "slides": "2016_october_chris.pdf"
+            }
+        },
+        "september" : {
+            "1": {
+                "date": "2016-09-05",
+                "speaker": "Adam Tomat",
+                "avatar": "/images/adam.jpg",
+                "twitter": "adamtomat",
+                "title": "Pattern Libraries & WordPress - Chasing the Holy Grail ",
+                "abstract": "<p>When working with WordPress, it’s common for frontend code to live within your theme; often mixing presentation with logic. Pattern Libraries help with this separation and allow you to build a backend-agnostic design system. In practice keeping the two in sync is fiddly & time consuming that makes future iteration difficult. As soon as they fall out of sync, the cons start to outweigh the pros.</p><p>This talk will show you how to maintain a clear separation between your front-end & WordPress code, without any of the integration headaches. It will also cover pattern library best practices, how to integrate a pattern library with WordPress and how embracing both can be empowering.</p>",
+                "slides" : "2016_september.pdf"
+            },
+            "2": {
+                "date": "2016-09-05",
+                "speaker": "Dave Hulbert",
+                "title": "Object Calisthenics [Lightning Talk] ",
+                "avatar": "/images/dave.jpeg",
+                "abstract": "Dave gave us a short talk on 9 simple ways you can improve your object oriented programming.",
+                "twitter": "dave1010",
+                "slides": "2016_september_dave.pdf"
+            }
+        },
+        "august": {
+            "1": {
+                "date": "2016-08-01",
+                "speaker": "Chris Sherry",
+                "title": "Pull requests for teams",
+                "avatar": "/images/chris.png",
+                "abstract": "<p>This short talk covers the basics of feature branching and pull requests, detailing when to make a pull request, how to make sure your pull request will pass code review, and why pull requests are important for developing software in teams.</p>",
+                "twitter": "tweetingsherry"
+            }
+        },
+        "july": {
+            "1": {
+                "date": "2016-07-04",
+                "speaker": "Dan Leech",
+                "title": "Bolt CMS",
+                "avatar": "/images/dantleech.png",
+                "abstract": "Bolt describes itself as: ... an open source Content Management Tool, which strives to be as simple and straightforward as possible. It is quick to set up, easy to configure, uses elegant templates, and above all: It’s a joy to use. Bolt is PHP CMS based on Silex, Symfony components and Twig. It can be seen as a modern alternative to Wordpress. In this talk Dan will relate his recent (and ongoing) experience with Bolt, discussing its Developer eXperience, capabilities, extendability and applicability. Can be Bolt be an alternative to Wordpress or even larger CMS systems? Lets discuss and find out!",
+                "twitter": "dantleech",
+                "resources": {
+                    "PHPBench": "https://www.bolt.cm/",
+                    "Dan Leech": "https://www.dantleech.com/"
+                },
+                "slides": "2016_july_dan.pdf"
+            }
+        },
+        "june": {
+            "1" : {
+                "date": "2016-06-06",
+                "cues": {},
+                "speaker": "Richard Baker",
+                "title": "Faster PHP apps using queues and workers",
+                "avatar": "/images/r_bake_r.jpg",
+                "abstract": "PHP apps typically perform tasks in a synchronous manner; Resizing an image or sending a push notification. For most applications this works well, but as apps grow or experience increased traffic, each task adds extra milliseconds to a request, leaving users waiting.\n\nA common solution is to defer these tasks to the background using a cron task. However, there is a better way. Job queues not only help to decouple your application and improve resilience but will also cut request times.\n\nIn this talk I we’ll explore some common queue systems; the features and tradeoffs of each solution, what to queue, refactoring existing code into jobs, and running workers. By the end you’ll be ready to build your next app one job at a time.",
+                "twitter": "r_bake_r",
+                "slides":"2016_june.pdf"
+            }
+        },
+        "may": {
+            "1" : {
+                "date": "2016-05-09",
+                "cues": {},
+                "speaker": "Michael Heap",
+                "title": "Becoming Indiana Jones",
+                "avatar": "/images/michael.jpg",
+                "abstract": "Code archaeology is one of the most important skills you will ever learn as a developer. How many times have you been thrown into legacy projects with no environment setup, no documentation, and little support from coworkers? The ability to hit the ground running on new applications is a sought-after skill for many employers. In this talk, we will take an open-source project that we have never seen before and work through the steps required to get it up and running so we can start contributing today.",
+                "twitter": "mheap",
+                "slides":""
+            }
+        },
+        "april": {
+            "1" : {
+                "date": "2016-04-04",
+                "speaker": "David McKay",
+                "title": "Kickass development environments with Docker",
+                "avatar": "/images/rawkode.jpeg",
+                "abstract": "Docker, the hottest technology around at the moment. It swept the Ops world by storm in 2014, became mainstream in 2015, and now it’s set to dominate the developer world, in 2016. Docker is a tool that allows you to package your application up into a single-runnable distributable binary - akin to the phar, but in Hulk mode. Docker allows you, a developer, to specify the exact environment your application needs to run, across development; test; staging; and production. In this talk I will cover the creation of this utopian distributable and show you how to can compose your entire production infrastructure locally with only a small YAML file and without installing a single thing. Lets say hello, to Docker. ",
+                "twitter": "rawkode",
+                "slides":"2016_april_davidmckay.pdf"
+            }
+        },
+        "march": {
+            "1" : {
+                "date": "2016-03-07",
+                "speaker": "Stanko Markovic",
+                "title": "How to do interviews properly - view from both sides",
+                "avatar": "/images/stanko.jpg",
+                "abstract": "As software developers, we are in great demand. There are lots of companies out there looking for good developers, but how do we know what companies are good to work for? We will look into how to set yourself up for the interview as a candidate, and what signs to look for. There is a clear list of indicators and questions we should ask, that will give us a clear understanding of the way a company is organised. But what happens if a developer has to be the one conducting the interview? Here we will switch things around, as we will go through the way the interviews should be conducted from the interviewer side. We will see what questions to ask, and how to gauge the answers from the candidate. We will look into how to structure the interview, and what techniques to use. Finally we will go over some of the interview basics and how to navigate the usual pitfalls of the job marketplace. Overall by following these steps, we should make the job hunt easier, and more pleasurable for all involved.",
+                "twitter": "greyshirt",
+                "slides":""
+            }
+        },
+        "february": {
+            "1" : {
+                "date": "2016-02-01",
+                "speaker": "Matt Cockayne",
+                "title": "Are you a good Code Scout?",
+                "avatar": "/images/mattcockayne.jpg",
+                "abstract": "Scouts are taught to be adventurous, considerate, thoughtful, effective, diligent, ingenious, thorough, earnest and effective! All of these qualities are ones that we should be striving for as a Developer. \n\nI will prove that being a Good Scout and being a Great developer are are the same thing. I’ll take you through the actions and attitudes taught to millions of kids aged 7-18 and how you can apply those practices to what you do in your code. ",
+                "twitter": "phpboyscout",
+                "slides":""
+            },
+            "2" : {
+                "date": "2016-02-01",
+                "speaker": "Toby Griffiths",
+                "title": "So you’re thinking about going self-employed?",
+                "avatar": "/images/tobygriffiths.jpg",
+                "abstract": "Having gone self-employed just over 6 years ago, I've had to learn a whole heap more than just how to code better. Over those years, I’ve learned much about the many aspects of the day-to-day running of a business, and (I like to think) how to stay sane through it all. Starting a business is not a smooth ride, but I'd like to share with you, not only the details of starting your own business, but also the highs and lows I've been through, and the wonderful snippets I’ve learned over those years, so that your journey to self-employment might go a little more smoothly.",
+                "twitter": "ToG",
+                "slides": "2016_february_toby.pdf"
+            }
+        }
+    },
+    "2015": {
+        "december": {
+            "1" : {
+                "date": "2015-12-07",
+                "speaker": "Dan Leech",
+                "title": "The PHP Benchmark",
+                "avatar": "/images/dantleech.png",
+                "abstract": "Making performant systems is often a goal in web development. There are many ways to monitor and verify performance, from commercial services such as Newrelic, using profilers such as Blackfire or XDebug, or simply using Curl or Firebug. These methods, however, act upon the whole request. How should we measure and profile the performance of units of code?\n\nIn this talk Daniel Leech will talk about benchmarking code in PHP and will present a tool with which to do it: PHPBench.\n\nDaniel Leech is an open source PHP developer involved in the Symfony CMF and is the developer of PHPBench.",
+                "twitter": "dantleech",
+                "resources": {
+                    "PHPBench": "https://www.phpbench.com/",
+                    "Dan Leech": "https://www.dantleech.com/",
+                    "Symfony CMF": "https://cmf.symfony.com/",
+                    "PHP Content Repository": "https://phpcr.github.io/"
+                },
+                "slides":""
+            },
+            "2" : {
+                "date": "2015-12-07",
+                "speaker": "Alex Ross",
+                "title": "Faster Websites with PHP 7",
+                "avatar": "/images/rossey.jpg",
+                "abstract": "PHP 7 will be released in November 2015. With it’s impressive 100%+ speed improvements and lower memory usage find out about the new PHP 7 spaceships, return & scalar type hints\n\nAlex is an Engineer at Base where he is part of the team working on <a href='https://www.discoverpassenger.com/'>Passenger</a>, a mobile app platform set to revolutionise public transport.",
+                "twitter": "rossey",
+                "resources": {
+                    "DUnit": "https://github.com/Vectorface/dunit",
+                    "PHP 7 Dev Box": "https://github.com/rlerdorf/php7dev.git",
+                    "Migrating PHP 5.6. to PHP 7": "https://php.net/manual/en/migration70.php",
+                    "Speeding up the Web with PHP 7": "https://talks.php.net/fluent15#/",
+                    "Getting Ready for PHP 7": "https://www.digitalocean.com/company/blog/getting-ready-for-php-7",
+                    "What to expect in PHP 7": "https://blog.engineyard.com/2015/what-to-expect-php-7"
+                },
+                "slides":""
+            }
+        },
+        "november": {
+            "1" : {
+                "date": "2015-11-02",
+                "speaker": "Jonathan Ginn",
+                "title": "Taming Wordpress Theming with Twig & Timber",
+                "avatar": "/images/jonginn.png",
+                "abstract": "Fed up with WordPress' templating system or feel like it could be so much better?\n\n<strong>Timber is the answer.</strong>\n\nTimber turns WordPress into a logical system of templates and views, gifting you the full power of Twig (and more) to turn your WordPress theme into a powerful system of controllers and views, with sensible, reusable code. Whether you're a front-end dev or back-end dev, Timber is sure to make you love WordPress again.\n\nJon will run through the basics of Twig as a templating system and show the advanced opportunities for Wordpress developers that Timber offers.\n\nJon is a 'Developer Evangelist' at Base, splitting his time between front-end dev and running digital events in the Dorset area.",
+                "twitter": "jonginn",
+                "resources": {
+                    "Twig": "https://twig.sensiolabs.org/",
+                    "Timber": "https://upstatement.com/timber/",
+                    "WordPress": "https://wordpress.org/"
+                },
+                "slides": "2015_november_jon.pdf"
+            },
+            "2" : {
+                "date": "2015-11-02",
+                "speaker": "Peter Ruczynski",
+                "title": "Clean Code",
+                "avatar": "/images/softbass.png",
+                "abstract": "Clean code does not just mean making your code look tidy and neat. This brief talk aims to show you some techniques which will help you to improve your code so that it is easier to read, easier to maintain, easier to debug, easier to test and easier for others to work on.",
+                "twitter": "softbass",
+                "slides": "2015_november_peter.pdf"
+            }
+        },
+        "october": {
+            "1" : {
+                "date": "2015-10-05",
+                "speaker": "Dave Hulbert",
+                "title": "Practical intro to using PhpSpec. AKA how to be lazy and write better code.",
+                "avatar": "/images/dave.jpeg",
+                "abstract": "PhpSpec is a tool for \"SpecBDD\". Basically test-driven development (TDD) but without the word \"test\" in it. This talk shows how to effectively use PhpSpec for fun and/or profit, and the advantages to using it along side other tools like PHPUnit and why it's \"literally\" made of awesomesauce. We'll start off with a breakneck primer on unit testing with PHPUnit and basic TDD concepts. Then we'll move on to getting set up with PhpSpec, followed by a guided tour of its main features. By the end of the talk you'll have techniques to take advantage of your natural inclination to laziness to actually help you write better code.",
+                "twitter": "dave1010"
+            }
+        },
+        "september": {
+            "1" : {
+                "date": "2015-09-07",
+                "speaker": "James Titcumb",
+                "title": "Diving into HHVM Extensions",
+                "avatar": "/images/james.png",
+                "abstract": "HHVM is currently gaining popularity at quite a pace, and it's a pretty exciting time for PHP runtimes. Have you ever wondered what is going on beneath this slick and super-speedy engine? I wondered that myself, so I dived into the internals of HHVM, discovering a treasure trove of awesome stuff. In this talk, I'll show you how HHVM itself works with a guided tour of the codebase, demonstrating how it all pieces together. I'll also show you a couple of ways to write your own incredible HHVM extension. You don't need to know C++ to understand this talk - just PHP language knowledge is enough.",
+                "twitter": "asgrim",
+                "video": "https://player.vimeo.com/video/139081731"
+            },
+            "2" : {
+                "date": "2015-09-07",
+                "speaker": "Marco Pivetta",
+                "title": "Extremely defensive PHP",
+                "avatar": "/images/ocramius.png",
+                "abstract": "What if I told you that your carefully designed and tested code was fragile? What if I told you that you can trust nobody? What does \"fragile\" even mean? We are going to look at fragile code, fix it, and lastly learn about various Poka-Yoke techniques that make our code very hard to break.",
+                "twitter": "ocramius",
+                "video": "https://player.vimeo.com/video/140114867"
+            }
+        },
+        "august": {
+            "1" : {
+                "speaker": "David Yell",
+                "title": "Don't code, bake. An introduction to CakePHP",
+                "avatar": "/images/yelldavid.jpg",
+                "abstract": "Learn about CakePHP, the RAD PHP framework for awesome people. Find out why I love CakePHP and learn about all the things which make up the framework.",
+                "twitter": "YellDavid"
+            }
+        },
+        "july": {
+            "1" : {
+                "speaker": "Marcus Bointon",
+                "title": "Modern networking for PHP developers",
+                "avatar": "/images/SynchroM.jpg",
+                "abstract": "Many developers are stuck in the world of old-school IPv4 - it's an easy and comfortable place to be! But beneath the cosy world of PHP, your network layer has been undergoing major changes that might be outside your comfort zone. IPv6, SPDY (aka HTTP/2.0) and SSL are all important technologies that you need to get to grips with, both inside and outside PHP. This talk covers the key features of these technologies and how you can use them to improve your app's availability, performance and security",
+                "twitter": "SynchroM"
+            }
+        },
+        "june": {
+            "1" : {
+                "speaker": "Christopher Hoult",
+                "title": "Your API is a UI",
+                "avatar": "/images/chault.jpg",
+                "abstract": "Whether you’re creating a complex web application or a simple library, everything you create has a user. Why, then, do we concentrate on our users when developing a user interface, but so often forget them when developing APIs? In this talk, Christopher presents a whirlwind overview of a variety of different User Experience considerations when designing your APIs.",
+                "twitter": "choult"
+            }
+        },
+        "april": {
+            "1" : {
+                "speaker": "Derick Rethans",
+                "title": "Text wrangling and wordsmithing with MongoDB",
+                "avatar": "/images/derickr.jpg",
+                "abstract": "Text wrangling and wordsmithing with MongoDB",
+                "feedbackUrl": "https://joind.in/14372",
+                "twitter": "derickr",
+                "slides": "2015_april.pdf",
+                "resources": {
+                    "Derick Rethans": "https://derickrethans.nl/talks/textwrangling-phpdorset15",
+                    "Atomic Operations": "https://www.mongodb.org/display/DOCS/Atomic+Operations",
+                    "BSON Spec": "http://bsonspec.org/",
+                    "Download MongoDB": "https://www.mongodb.org/downloads",
+                    "Ghenghis": "https://genghisapp.com/",
+                    "Google S2 Internals": "https://docs.google.com/presentation/d/1Hl4KapfAENAOf4gv-pSngKwvS_jwNVHRPZTTDzXXn6Q/view#slide=id.i0",
+                    "Indexing Freeform-Tagged Data": "https://drck.me/freetagidx-9gm",
+                    "London MongoDB UG": "https://www.meetup.com/London-MongoDB-User-Group",
+                    "MongoDB Cursors with PHP": "https://drck.me/mongocur-9f8",
+                    "MongoDB geohashes": "https://www.kchodorow.com/blog/2011/06/08/mongo-in-flatland/",
+                    "Single machine replicaset tutorial": "https://www.mongodb.org/display/DOCS/Replica+Set+Tutorial"
+                }
+            }
+        },
+        "march": {
+            "1" : {
+                "speaker": "Chris Sherry",
+                "title": "WordPress for the modern PHP developer",
+                "avatar": "/images/chris.png",
+                "abstract": "<p>It powers 23% of the internet, so its more than likely you are maintaining a codebase built on Wordpress. Many of these projects have outgrown their humble beginnings as blogs or websites and are now highly customised web applications. However the modern tools we use as PHP developers to aid our development, particularly in teams, can be tricky to utilise with the popular blogging platform. </p><p>This technical talk will guide you through how to make the use of Composer, Git and other tools familiar to PHP developers within your Wordpress install - and help you take back control of your themes, plugins, database and environments in a growing application.</p>",
+                "feedbackUrl": "https://joind.in/13715",
+                "twitter": "tweetingsherry",
+                "resources": {
+                    "Base Orchestration and Synchronization Helper": "https://wearebase.com/about/blog/2015/deployment-database-and-asset-management/"
+                },
+                "slides": "2015_march.pdf",
+                "cues": {
+                    "1": "00:02",
+                    "2": "00:04",
+                    "3": "00:09",
+                    "4": "00:14",
+                    "5": "00:15",
+                    "6": "00:29",
+                    "7": "00:34",
+                    "8": "00:58",
+                    "9": "01:02",
+                    "10": "01:10",
+                    "11": "01:17",
+                    "12": "01:51",
+                    "13": "01:55",
+                    "14": "01:58",
+                    "15": "01:59",
+                    "16": "02:05",
+                    "17": "02:08",
+                    "18": "02:12",
+                    "19": "02:16",
+                    "20": "02:29",
+                    "21": "03:10",
+                    "22": "03:19",
+                    "23": "03:27",
+                    "24": "04:12",
+                    "25": "04:20",
+                    "26": "04:22",
+                    "27": "04:34",
+                    "28": "04:53",
+                    "29": "04:57",
+                    "30": "05:42",
+                    "31": "05:45",
+                    "32": "05:49",
+                    "33": "05:54",
+                    "34": "06:05",
+                    "35": "06:28",
+                    "36": "06:49",
+                    "37": "06:56",
+                    "38": "07:55",
+                    "39": "08:59",
+                    "40": "09:06",
+                    "41": "09:39",
+                    "42": "09:48",
+                    "43": "10:09",
+                    "44": "10:19",
+                    "45": "10:48",
+                    "46": "11:27",
+                    "47": "11:52",
+                    "48": "12:05",
+                    "49": "12:25",
+                    "50": "12:52",
+                    "51": "12:53",
+                    "52": "13:01",
+                    "53": "13:07",
+                    "54": "13:13",
+                    "55": "13:23",
+                    "56": "13:30",
+                    "57": "13:57",
+                    "58": "14:24",
+                    "59": "14:45",
+                    "60": "14:49",
+                    "61": "15:45",
+                    "62": "16:04",
+                    "63": "16:63",
+                    "64": "17:32",
+                    "65": "18:39",
+                    "66": "19:24",
+                    "67": "20:18",
+                    "68": "20:26",
+                    "69": "21:18",
+                    "70": "22:02",
+                    "71": "23:01",
+                    "72": "23:35",
+                    "73": "24:46",
+                    "74": "25:09",
+                    "75": "25:15",
+                    "76": "25:23",
+                    "77": "25:36",
+                    "78": "25:54",
+                    "79": "26:05",
+                    "80": "27:06",
+                    "81": "27:18",
+                    "82": "27:29",
+                    "83": "28:03",
+                    "84": "30:09",
+                    "85": "30:35",
+                    "86": "30:37",
+                    "87": "30:42",
+                    "88": "30:45",
+                    "89": "30:51",
+                    "90": "30:55",
+                    "91": "30:56",
+                    "92": "31:43",
+                    "93": "33:02",
+                    "94": "33:28",
+                    "95": "33:29",
+                    "96": "34:43",
+                    "97": "35:34",
+                    "98": "35:53",
+                    "99": "36:02",
+                    "100": "36:34",
+                    "101": "38:35",
+                    "102": "39:26",
+                    "103": "39:28",
+                    "104": "30:30",
+                    "105": "39:43",
+                    "106": "39:53",
+                    "107": "40:02",
+                    "108": "40:06",
+                    "109": "40:12",
+                    "110": "40:22"
+                },
+                "video": "https://player.vimeo.com/video/121300214"
+            }
+        },
+        "february": {
+            "1" : {
+                "speaker": "Michael Cullum",
+                "title": "Getting off the island",
+                "avatar": "/images/michaelc.jpg",
+                "abstract": "<p>There are many FOSS projects out there - such as phpBB, Drupal, Wordpress, MyBB and Joomla - that are web applications designed for end-users and have, due to a range of factors, become very isolated from the rest of the open source community, which can only be a bad thing. Many of these projects are beginning to change their philosophies, but there is a long way to go. We’ll look at how frameworks, libraries, and the PHP FIG can help these projects to 'get off the island' and how we can shift the focus from creating communities to integrating them.</p>",
+                "twitter": "michaelcullumuk",
+                "cues": {}
+            }
+        }
+    },
+    "2014": {
+        "december": {
+            "1" : {
+                "speaker": "Jenny Wong",
+                "title": "Integrating Communities",
+                "avatar": "/images/jenny.jpeg",
+                "abstract": "<p>Is PHP one community or many?  Frameworks and CMSes created in PHP are popular enough to have self-sufficient communities, but this can often result in a lack of crossover between the communities. The result of the fragmentation is wasted effort and time as a developer but also a lack of knowledge transfer that extends outsides our own subgroup bubble.</p><p>This talk will bring some practical suggestions and solutions on how to look outside our comfort zones, widen our technical circles, and ensure that we learn from other peoples mistakes and bridge the gap between communities. As a result, we will make all our communities more diverse and stronger..</p>",
+                "feedbackUrl": "joind.in/event/view/3351",
+                "twitter": "miss_jwo",
+                "cues": {}
+            }
+        },
+        "november": {
+            "1" : {
+                "speaker": "Stuart Herbert",
+                "title": "When To Mock",
+                "avatar": "/images/stu.jpg",
+                "abstract": "<p>What are mocks, what are the consequences of using them, and when should you use them?</p>",
+                "twitter": "stuherbert",
+                "cues": {},
+                "video": "https://player.vimeo.com/video/111983092",
+                "slides": "2014_november.pdf"
+            }
+        },
+        "september": {
+            "1" : {
+                "speaker": "Ollie Lawson",
+                "title": "Tales from inside an ISP",
+                "avatar": "/images/ollie.jpg",
+                "abstract": "<p>In 2006 a book seller popularised a concept from the 50s that has revolutionised the arena we work in. Although not the inventors of this technology Amazon has made large-scale computing bigger, faster and cheaper. In this era of multi-billion dollar data centres and everything-as-a-service is there a future for having your own “iron”?</p><p>The commoditisation of enterprise class hardware and software has meant that small scale organisations can have large scale infrastructure. Listen to how you can use all the tools at your disposal (yes, even DevOps) to get that hosting bill down and performance and security up.</p>",
+                "twitter": "lwsndgtl",
+                "cues": {}
+            }
+        },
+        "july": {
+            "1" : {
+                "speaker": "Dave Baker",
+                "title": "Chat-Ops for Fun & Profit",
+                "avatar": "images/daveb.jpg",
+                "abstract": "<p>All Hail Our 'Bot Masters (or chat-ops for fun & profit)</p><p>As developers we spend the majority of our time on writing code for our products, clients, employers, open source projects etc, but how much extra stuff do we 'hack' together time and time again for those 1-off tasks that just aren't 1-off</p><p>We have been experimenting with a concept from Github known as Chat-Ops in which you tie your services into a chat client (HipChat, Campfire, Slack, IRC) and have a 'bot running with a variety of commands that can make your life easier, through notifications from Github pull requests, new issues, or server monitoring alerts, or even asking the bot to do deploys, check the server status, parse the logs (or retrieve images of ceiling cat)</p><p>This talk introduces hubot and some of the things we've been doing with it.</p>",
+                "twitter": "fully_baked",
+                "cues": {},
+                "video": "https://player.vimeo.com/video/100841860",
+                "slides": "2014_july.pdf"
+            }
+        },
+        "june": {
+            "1" : {
+                "speaker": "James Titcumb",
+                "title": "Dip Your Toes in the Sea of Security",
+                "avatar": "/images/james.png",
+                "abstract": "Security is an enormous topic, and it’s really, really complicated. If you’re not careful, you’ll find yourself vulnerable to any number of attacks which you definitely don’t want to be on the receiving end of. This talk will give you just a taster of the vast array of things there is to know about security in modern web applications, such as writing secure PHP web applications and securing a Linux server. Whether you are writing anything beyond a basic brochure website, or even developing a complicated business web application, this talk will give you insights to some of the things you need to be aware of.",
+                "twitter": "asgrim",
+                "cues": {},
+                "video": "https://player.vimeo.com/video/97645043",
+                "slides": "2014_june.pdf"
+            }
+        },
+        "may": {
+            "1" : {
+                "speaker": "Simon Holywell",
+                "title": "Functional Programming",
+                "avatar": "/images/simon.jpg",
+                "abstract": "<p>In the PHP world functions are generally sneered at due to their simplicity and perceived as an evil side effect of spaghetti code. This is not necessarily the case however as when functions are combined in a logical manner they can be very powerful.</p><p>In fact they can be deployed to great effect in all manner of applications to create advanced and potentially less error prone software. This talk will take the form of a gentle introduction to functional programming concepts in a PHP context.</p><p>It will cater to a variety of levels of knowledge. Right from those who have never heard of functional programming to coders who have been practicing aspects for years in other languages (JavaScript!) - perhaps without even knowing.</p><p>During my talk you’ll hear some history, functional theory (introduced gently I promise) and of course some practical examples. You definitely do not need to be a mathematician or expert/functional coder to enjoy this session.</p>",
+                "twitter": "treffynnon",
+                "cues": {},
+                "video": "https://player.vimeo.com/video/96925133",
+                "slides": "2014_may.pdf"
+            }
+        },
+        "april": {
+            "1" : {
+                "cues": {
+                    "1": "00:01",
+                    "2": "00:02",
+                    "3": "00:07",
+                    "4": "00:16",
+                    "5": "00:28",
+                    "6": "00:40",
+                    "7": "00:46",
+                    "8": "01:20",
+                    "9": "01:29",
+                    "10": "01:46",
+                    "11": "01:55",
+                    "12": "02:30",
+                    "13": "02:32",
+                    "14": "02:45",
+                    "15": "02:48",
+                    "16": "02:50",
+                    "17": "03:03",
+                    "18": "03:25",
+                    "19": "03:38",
+                    "20": "03:40",
+                    "21": "04:03",
+                    "22": "04:14",
+                    "23": "04:39",
+                    "24": "05:13",
+                    "25": "05:20",
+                    "26": "05:38",
+                    "27": "05:43",
+                    "28": "06:03",
+                    "29": "06:10",
+                    "30": "06:33",
+                    "31": "07:24",
+                    "32": "07:36",
+                    "33": "07:54",
+                    "34": "08:25",
+                    "35": "08:52",
+                    "36": "09:20",
+                    "37": "09:34",
+                    "38": "10:11",
+                    "39": "10:23",
+                    "40": "10:25",
+                    "41": "10:26",
+                    "42": "10:31",
+                    "43": "11:26",
+                    "44": "11:42",
+                    "45": "13:04",
+                    "46": "13:40",
+                    "47": "14:30",
+                    "48": "14:43",
+                    "49": "15:05",
+                    "50": "16:03",
+                    "51": "16:55"
+
+                },
+                "speaker": "Dave Hulbert & Alex Ross",
+                "title": "Silex and Twig",
+                "avatar": "/images/alexdave.jpg",
+                "video": "https://player.vimeo.com/video/91962484",
+                "twitter": "dave1010",
+                "slides": "2014_april.pdf"
+            }
+        },
+        "march": {
+            "1" : {
+                "cues": {},
+                "speaker": "Michael Heap",
+                "title": "Vagrant and Ansible",
+                "avatar": "/images/michael.jpg",
+                "abstract": "<p>'It works on my box'. 'I don't have a day to help Dave set up his new PC'. 'I swear I had the same version installed!'</p><p>Sound familiar? It was for me too before I started using Vagrant and Ansible.</p><p>Vagrant is a tool for automating the creation of virtual machines. Of course, that's only half of the battle - once you have a machine you need to configure it. That's where Ansible comes in.</p><p>Ansible is a powerful server automation tool (think Puppet or Chef, but with a much lower learning curve), allowing you to install software and configure things as you need in a reproducible way.</p><p>By the end of this talk, everyone will be able to go home and create a Vagrant box that installs PHP, Apache2 and configures an example website with a custom VirtualHost in under 30 minutes.</p>",
+                "twitter": "mheap",
+                "resources": {
+                    "Accompanying files": "https://github.com/mheap/phpnw-ansible-playbooks"
+                }
+            }
+        }
+    }
+}
