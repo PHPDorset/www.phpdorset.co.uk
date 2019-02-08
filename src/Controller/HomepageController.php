@@ -18,7 +18,7 @@ final class HomepageController extends AbstractController
     }
 
     /**
-     * @Route('/')
+     * @Route("/")
      */
     public function viewAction(): Response
     {

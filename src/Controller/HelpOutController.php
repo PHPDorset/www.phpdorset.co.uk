@@ -11,7 +11,7 @@ use Symfony\Component\Routing\Annotation\Route;
 final class HelpOutController extends AbstractController
 {
     /**
-     * @Route('/get-involved')
+     * @Route("/get-involved")
      */
     public function viewAction(): Response
     {
